@@ -78,3 +78,19 @@ footer {
     text-align:center;
     padding: 25px;
 }
+
+.hidden-message{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-content{
+    background-color:#ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
