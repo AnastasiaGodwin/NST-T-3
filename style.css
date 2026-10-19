@@ -69,6 +69,7 @@ p {
     border: 10px dashed #ffffff;
     outline-offset: -10px;
     margin: 35px auto;
+    flex-wrap: wrap;
 }
 
 footer {
