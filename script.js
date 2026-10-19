@@ -1,11 +1,12 @@
-"use strict";
-const customerNameInput= document.getElementById('customername');
-const orderForm= document.getElementById('request-form');
-function handleOrderSubmit(event){
-    event.preventDefault();
-    const customerName =customerNameInput.value;
-    alert("Thank you very much," + customerName +  "!for your order!");
-    orderForm.reset();
-}
 
-orderForm.addEventListener('submit, handleOrderSubmit');
+const requestForm= document.getElementById('requestForm');
+const thankYou= document.getElementById('thankYou');
+const closeButton= document.getElementById('closeButton');
+orderForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    thankYoustule.display= 'flex';
+    requestForm.requestFullscreen();
+});
+closeButton.addEventListener('click', function() {
+    thankYou.style.display= 'none';
+});
